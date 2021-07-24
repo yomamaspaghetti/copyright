@@ -1,0 +1,11 @@
+.fourth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 em(33);
+    margin-bottom: em(200);
+
+    img:not(:last-child) {
+        margin-bottom: em(60);
+    }
+}

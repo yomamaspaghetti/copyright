@@ -1,0 +1,34 @@
+.third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 em(33);
+    margin-bottom: em(200);
+
+    h2 {
+        padding: 0 em(32, 24);
+        margin-bottom: em(25, 24);
+    }
+
+    > p {
+        margin-bottom: em(90, 16);
+    }
+}
+
+.third_content {
+    display: flex;
+    flex-direction: column;
+
+    article:not(:last-child) {
+        margin-bottom: em(60);
+    }
+
+    img {
+        margin-bottom: em(50);
+    }
+
+    h3 {
+        margin-bottom: em(20, 20);
+    }
+}

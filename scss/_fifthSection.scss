@@ -1,0 +1,17 @@
+.fifth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 em(33);
+    margin-bottom: em(200);
+
+    h2 {
+        padding: 0 em(16, 24);
+        margin-bottom: em(25, 24);
+    }
+
+    p {
+        margin-bottom: em(50, 16);
+    }
+}

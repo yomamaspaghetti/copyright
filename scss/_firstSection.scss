@@ -1,0 +1,37 @@
+.first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 em(33);
+    margin-bottom: em(200);
+}
+
+.first_main {
+    h2 {
+        margin-bottom: em(25, 24);
+    }
+
+    p {
+        margin-bottom: em(60, 16);
+    }
+}
+
+.first_sub {
+    display: flex;
+    flex-direction: column;
+
+    article:not(:last-child) {
+        margin-bottom: em(60);
+    }
+
+    h3 {
+        margin-bottom: em(20, 20);
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        margin-bottom: em(60);
+    }
+}
